@@ -4,7 +4,7 @@ import '../models/game_difficulty.dart';
 import '../models/game_result.dart';
 
 class GameViewModel extends ChangeNotifier {
-  GameDifficulty _difficulty = GameDifficulty.easy;
+  GameDifficulty _difficulty = GameDifficulty.easy; 
 
   late int _secret;
   late int attemptsLeft;
